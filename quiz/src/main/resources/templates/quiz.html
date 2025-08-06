@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><title>প্রশ্নপত্র</title></head>
+<body>
+<form action="/submit-quiz" method="post">
+    <input type="hidden" name="studentId" value="[[${studentId}]]" />
+    <h3>১. বস্তুর উপর বল প্রয়োগ করলে কী পরিবর্তন হতে পারে?</h3>
+    <input type="radio" name="q1" value="option1"> রঙ পরিবর্তন<br>
+    <input type="radio" name="q1" value="option2"> আকার ও গতি পরিবর্তন<br>
+    <input type="radio" name="q1" value="option3"> শুধুমাত্র ওজন বৃদ্ধি<br>
+    <input type="radio" name="q1" value="option4"> তাপমাত্রা হ্রাস<br>
+
+    <h3>২. গতিশক্তি কিসের উপর নির্ভর করে?</h3>
+    <input type="radio" name="q2" value="option1"> রঙ এবং ঘনত্ব<br>
+    <input type="radio" name="q2" value="option2"> তাপমাত্রা<br>
+    <input type="radio" name="q2" value="option3"> ভর এবং বেগ<br>
+    <input type="radio" name="q2" value="option4"> দৈর্ঘ্য এবং প্রস্থ<br>
+
+
+    <button type="submit">জমা দিন</button>
+</form>
+</body>
+</html>
